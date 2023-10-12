@@ -12,16 +12,16 @@ Also, [styles](https://github.com/Von-sledge/Juno_project/blob/main/styles) cons
 <br/>
 The [app.html](https://github.com/Von-sledge/Juno_project/blob/main/app.html) is the main html file always rendered when there is something or a change in any part of the website.
 
-### Important Information
+
 ## NB:
 There are a lot of features to be added as time goes on. However, please try very hard not to break the previous existing code and also try to always check for remote changes before making any changes.
 
 ## PACKAGES USED
--node-sass
--parcel
+- node-sass
+- parcel
 
 ## Developers
-1. Solomon Chamamme Nnyabe
-email : solomonchamamme@gmail.com
-phone : +233(0)55-434-1306
+1. Solomon Chamamme Nnyabe <br/>
+email : solomonchamamme@gmail.com <br/>
+phone : +233(0)55-434-1306 <br/>
 2. Papa Amoah
