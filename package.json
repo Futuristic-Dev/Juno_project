@@ -1,0 +1,20 @@
+{
+  "name": "asah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel app.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
