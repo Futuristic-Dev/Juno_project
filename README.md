@@ -24,6 +24,6 @@ There are a lot of features to be added as time goes on. However, please try ver
 1. Solomon Chamamme Nnyabe <br/>
 email : solomonchamamme@gmail.com <br/>
 phone : +233(0)55-434-1306 <br/>
-2. Papa Amoah
+2. Papa Amoah <br/>
 email : papaamoah568@gmail.com <br/>
 phone : +233(0)55-926-5133 <br/>
