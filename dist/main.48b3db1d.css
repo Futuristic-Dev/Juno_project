@@ -1,0 +1,18 @@
+:root {
+  --color-white: #ffff;
+  --color-black: #000000; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+body {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.75rem;
+  color: var(--color-black); }
+
+
+/*# sourceMappingURL=/main.48b3db1d.css.map */
