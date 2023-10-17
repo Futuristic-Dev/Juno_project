@@ -3,4 +3,7 @@
 node_modules
 *~
 node_modules/*
+./dist
+dist
+./dist/*
 git_auto

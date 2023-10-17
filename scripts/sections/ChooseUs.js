@@ -2,7 +2,7 @@ import React from 'react'
 
 function ChooseUs() {
   return (
-    <div>ChooseUs</div>
+    <div className='choose'>ChooseUs</div>
   )
 }
 

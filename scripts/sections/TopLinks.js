@@ -2,7 +2,7 @@ import React from 'react'
 
 function TopLinks() {
   return (
-    <div>TopLinks</div>
+    <div className='links-top'>TopLinks</div>
   )
 }
 

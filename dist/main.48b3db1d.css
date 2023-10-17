@@ -1,3 +1,4 @@
+/** The base style file import to the main file*/
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 :root {
   --color-white: #ffff;
@@ -42,6 +43,64 @@ body {
   font-family: 'Manrope', sans-serif;
   line-height: 1.75rem;
   color: var(--color-black); }
+
+/** Where we import all the layouts files for the page */
+.container {
+  display: grid;
+  grid-template-rows: 3.5rem 5.826rem 130rem 30rem 56rem 74.62rem 52.375rem 52.149rem 37.313rem 45.313rem 62.875rem 30.4375rem; }
+
+.about {
+  grid-row: 5 / 6;
+  grid-column: 1 / -1;
+  background-color: red; }
+
+.about-cards {
+  grid-row: 4 / 5;
+  grid-column: 1 / -1;
+  background-color: brown; }
+
+.banner {
+  grid-row: 3 / 4;
+  grid-column: 1 / -1;
+  background-color: green; }
+
+.choose {
+  grid-row: 7 / 8;
+  grid-column: 1 / -1;
+  background-color: green; }
+
+.experts {
+  grid-row: 10 / 11;
+  grid-column: 1 / -1;
+  background-color: brown; }
+
+.footer {
+  grid-row: 12 / -1;
+  grid-column: 1 / -1;
+  background-color: black; }
+
+.nav {
+  grid-row: 2 / 3;
+  grid-column: 1 / -1; }
+
+.projects {
+  grid-row: 8 / 9;
+  grid-column: 1 / -1;
+  background-color: pink; }
+
+.recommend {
+  grid-row: 11 / 12;
+  grid-column: 1 / -1; }
+
+.scheme {
+  grid-row: 9 / 10;
+  grid-column: 1 / -1;
+  background-color: grey; }
+
+.links-top {
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
+  background-color: red; }
 
 
 /*# sourceMappingURL=/main.48b3db1d.css.map */

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experts() {
   return (
-    <div>Experts</div>
+    <div className='experts'>Experts</div>
   )
 }
 

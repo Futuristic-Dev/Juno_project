@@ -2,7 +2,7 @@ import React from 'react'
 
 function Recommendation() {
   return (
-    <div>Recommendation</div>
+    <div className='recommed'>Recommendation</div>
   )
 }
 

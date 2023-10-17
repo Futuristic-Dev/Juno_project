@@ -2,7 +2,7 @@ import React from 'react'
 
 function OurServices() {
   return (
-    <div>OurServices</div>
+    <div className='services'>OurServices</div>
   )
 }
 

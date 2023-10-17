@@ -15,17 +15,17 @@ class App extends Component {
   render() {
     return (
       <div className='container'>
-        <TopLink>Top Link</TopLink>
-        <AboutCards></AboutCards>
-        <Banner></Banner>
-        <AboutSection></AboutSection>
-        <ChooseUs></ChooseUs>
-        <Experts></Experts>
+        <TopLink></TopLink>
         <NavBar></NavBar>
+        <Banner></Banner>
+        <AboutCards></AboutCards>
+        <AboutSection></AboutSection>
         <OurServices></OurServices>
+        <ChooseUs></ChooseUs>
         <Projects></Projects>
-        <Recommendation></Recommendation>
         <Scheme></Scheme>
+        <Experts></Experts>
+        <Recommendation></Recommendation>
         <Footer></Footer>
       </div>
     )

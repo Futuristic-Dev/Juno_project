@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutCards() {
   return (
-    <div>AboutCards</div>
+    <div className='about-cards'>AboutCards</div>
   )
 }
 

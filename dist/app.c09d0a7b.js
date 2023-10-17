@@ -28899,7 +28899,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function TopLinks() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "TopLinks");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "links-top"
+  }, "TopLinks");
 }
 var _default = exports.default = TopLinks;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/Banner.js":[function(require,module,exports) {
@@ -28912,7 +28914,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function Banner() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "Banner");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "banner"
+  }, "Banner");
 }
 var _default = exports.default = Banner;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/AboutCards.js":[function(require,module,exports) {
@@ -28925,7 +28929,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function AboutCards() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "AboutCards");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "about-cards"
+  }, "AboutCards");
 }
 var _default = exports.default = AboutCards;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/AboutSection.js":[function(require,module,exports) {
@@ -28938,7 +28944,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function AboutSection() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "AboutSection");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "about"
+  }, "AboutSection");
 }
 var _default = exports.default = AboutSection;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/ChooseUs.js":[function(require,module,exports) {
@@ -28951,7 +28959,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function ChooseUs() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "ChooseUs");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "choose"
+  }, "ChooseUs");
 }
 var _default = exports.default = ChooseUs;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/Experts.js":[function(require,module,exports) {
@@ -28964,7 +28974,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function Experts() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "Experts");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "experts"
+  }, "Experts");
 }
 var _default = exports.default = Experts;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/Footer.js":[function(require,module,exports) {
@@ -28977,7 +28989,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function Footer() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "Footer");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "footer"
+  }, "Footer");
 }
 var _default = exports.default = Footer;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/NavBar.js":[function(require,module,exports) {
@@ -28990,7 +29004,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function NavBar() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "NavBar");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "nav"
+  }, "NavBar");
 }
 var _default = exports.default = NavBar;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/OurServices.js":[function(require,module,exports) {
@@ -29003,7 +29019,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function OurServices() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "OurServices");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "services"
+  }, "OurServices");
 }
 var _default = exports.default = OurServices;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/Projects.js":[function(require,module,exports) {
@@ -29016,7 +29034,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function Projects() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "Projects");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "projects"
+  }, "Projects");
 }
 var _default = exports.default = Projects;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/Recommendation.js":[function(require,module,exports) {
@@ -29029,7 +29049,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function Recommendation() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "Recommendation");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "recommed"
+  }, "Recommendation");
 }
 var _default = exports.default = Recommendation;
 },{"react":"node_modules/react/index.js"}],"scripts/sections/Scheme.js":[function(require,module,exports) {
@@ -29042,7 +29064,9 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function Scheme() {
-  return /*#__PURE__*/_react.default.createElement("div", null, "Scheme");
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "scheme"
+  }, "Scheme");
 }
 var _default = exports.default = Scheme;
 },{"react":"node_modules/react/index.js"}],"scripts/App.js":[function(require,module,exports) {
@@ -29093,7 +29117,7 @@ var App = /*#__PURE__*/function (_Component) {
     value: function render() {
       return /*#__PURE__*/_react.default.createElement("div", {
         className: "container"
-      }, /*#__PURE__*/_react.default.createElement(_TopLinks.default, null, "Top Link"), /*#__PURE__*/_react.default.createElement(_AboutCards.default, null), /*#__PURE__*/_react.default.createElement(_Banner.default, null), /*#__PURE__*/_react.default.createElement(_AboutSection.default, null), /*#__PURE__*/_react.default.createElement(_ChooseUs.default, null), /*#__PURE__*/_react.default.createElement(_Experts.default, null), /*#__PURE__*/_react.default.createElement(_NavBar.default, null), /*#__PURE__*/_react.default.createElement(_OurServices.default, null), /*#__PURE__*/_react.default.createElement(_Projects.default, null), /*#__PURE__*/_react.default.createElement(_Recommendation.default, null), /*#__PURE__*/_react.default.createElement(_Scheme.default, null), /*#__PURE__*/_react.default.createElement(_Footer.default, null));
+      }, /*#__PURE__*/_react.default.createElement(_TopLinks.default, null), /*#__PURE__*/_react.default.createElement(_NavBar.default, null), /*#__PURE__*/_react.default.createElement(_Banner.default, null), /*#__PURE__*/_react.default.createElement(_AboutCards.default, null), /*#__PURE__*/_react.default.createElement(_AboutSection.default, null), /*#__PURE__*/_react.default.createElement(_OurServices.default, null), /*#__PURE__*/_react.default.createElement(_ChooseUs.default, null), /*#__PURE__*/_react.default.createElement(_Projects.default, null), /*#__PURE__*/_react.default.createElement(_Scheme.default, null), /*#__PURE__*/_react.default.createElement(_Experts.default, null), /*#__PURE__*/_react.default.createElement(_Recommendation.default, null), /*#__PURE__*/_react.default.createElement(_Footer.default, null));
     }
   }]);
   return App;
