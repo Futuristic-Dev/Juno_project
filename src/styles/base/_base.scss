@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+    --color-white: #ffff;
+    --color-white-dark:#E9E9E9;
+    --color-white-dark-1:#EEEEEE;
+    --color-white-light:#F9F9F9;
+    --color-white-light-1:#F4F4F4;
+    --color-white-light-2:#F2F5F9;
+    --color-black: #000000;
+    --color-black-light:#1C1B1F;
+    --color-black-light-1:#333333;
+    --grey-black-light-2:#A1A1A1;
+    --color-main:#89A0CD;
+    --color-main-dark:#44526B;
+    --color-dark-ash-1:#8A8A8A;
+    --color-dark-ash-2:#909090;
+    --color-dark-ash-3:#959595;
+    --color-dark-ash-4:#9B9B9B;
+    --color-dark-ash-5:#A0A0A0;
+    --color-grey-ash:#A6A6A6;
+    --color-grey-ash-1:#ABABAB;
+    --color-grey-ash-2:#B1B1B1;
+    --color-grey-ash-3:#B7B7B7;
+    --color-grey-ash-4:#BCBCBC;
+    --color-grey-ash-4:#C2C2C2;
+    --color-light-ash:#C7C7C7;
+    --color-light-ash-1:#CDCDCD;
+    --color-light-ash-2:#D2D2D2;
+    --color-light-ash-3:#D8D8D8;
+    --color-light-ash-4:#DEDEDE;
+    --color-light-ash-5:#E3E3E3;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    line-height: 1.75rem;
+    color: var(--color-black);
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

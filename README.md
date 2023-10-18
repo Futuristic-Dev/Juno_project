@@ -1,29 +1,70 @@
-# Asah Space Website Repository
-To build this project, we use npm to manage the packages. To get it running, run:
-`npm install`
-<br/>
-This will install all the packages needed from the [package.json](https://github.com/Von-sledge/Juno_project/blob/main/package.json)
-<br/>
-The [scripts](https://github.com/Von-sledge/Juno_project/blob/main/scripts) folder contains all the javascript files which are sectioned into subfolders representing what they do. All the files are imported into the [App.js](https://github.com/Von-sledge/Juno_project/blob/main/scripts/App.js) file for rendering.
-<br/>
-<br/>
-Also, [styles](https://github.com/Von-sledge/Juno_project/blob/main/styles) constains all the subfolders responsible for handling the styles on the page. All subfiles under the folders are imported into the [main.scss](https://github.com/Von-sledge/Juno_project/blob/main/styles/main.scss) file and rendered on the site.
-<br/>
-<br/>
-The [app.html](https://github.com/Von-sledge/Juno_project/blob/main/app.html) is the main html file always rendered when there is something or a change in any part of the website.
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## NB:
-There are a lot of features to be added as time goes on. However, please try very hard not to break the previous existing code and also try to always check for remote changes before making any changes.
+## Available Scripts
 
-## PACKAGES USED
-- node-sass
-- parcel
+In the project directory, you can run:
 
-## Developers
-1. Solomon Chamamme Nnyabe <br/>
-email : solomonchamamme@gmail.com <br/>
-phone : +233(0)55-434-1306 <br/>
-2. Papa Amoah <br/>
-email : papaamoah568@gmail.com <br/>
-phone : +233(0)55-926-5133 <br/>
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
