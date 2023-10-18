@@ -1,0 +1,13 @@
+/** The base style file import to the main file*/
+@import "./base/_base.scss";
+
+
+/** Where we import all the layouts files for the page */
+@import "./layout/app";
+@import './layout/headerLayout';
+@import './layout/mainLayout';
+@import './layout/footerLayout';
+@import './layout/navigation';
+
+/** Where we import all the components layouts */
+@import './components/navBar';
