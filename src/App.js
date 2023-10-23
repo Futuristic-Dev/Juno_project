@@ -12,13 +12,13 @@ import Choose from './sections/ChooseUs'
 import Projects from './sections/Projects'
 // import AboutCard from './sections/AboutCards'
 // import TopLink from './sections/TopLinks'
-// import NavBar from './sections/NavBar'
+import NavBar from './sections/NavBar'
 import About from './sections/AboutSection'
 import Services from './sections/OurServices'
 import Scheme from './sections/Scheme'
 import Recommend from './sections/Recommendation'
 import Footer from './sections/Footer'
-import PhoneInTalk from './SVG/phone_in_talk.svg'
+
 
 function App() {
   return (
@@ -39,10 +39,11 @@ function App() {
             <li className='navigation-top--contacts__item'>
               <a href='#'>
                 <Envelope className='navigation-icon'></Envelope> 
+                <span>
+                  solomon@gmail.com
+                </span>
               </a>
-              <span>
-              solomon@gmail.com
-              </span>
+              
             </li>
             <li className='navigation-top--contacts__item'>
               <a href='#'>
@@ -68,19 +69,7 @@ function App() {
             </li>
           </ul>
         </div>
-        <div className='nav-bar'>
-            <img src='./logo.png' className='nav-bar--logo'></img>
-          <ul className='nav-bar--lists'>
-            <li className='nav-bar--lists__item'><a href='#'>Home</a></li>
-            <li className='nav-bar--lists__item'><a href='#'>Abouts</a></li>
-            <li className='nav-bar--lists__item'><a href='#'>Services</a></li>
-            <li className='nav-bar--lists__item'><a href='#'>Projects</a></li>
-            <li className='nav-bar--lists__item'><a href='#'>Partners</a></li>
-          </ul>
-          <a className='nav-bar--contact' href='#'>
-            contact Us
-          </a>
-        </div>
+        <NavBar></NavBar>
       </nav>
     </header>
     <main className='main'>
