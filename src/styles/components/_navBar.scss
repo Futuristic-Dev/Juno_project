@@ -5,7 +5,7 @@
     grid-template-columns: 15rem 1fr 10rem;
     justify-content: center;
     align-items: center;
-    font-size: 1.2em;
+    font-size: $main-font-size;
 
     &--logo{
         grid-row: 1 / 2;
@@ -19,16 +19,44 @@
         display: flex;
         justify-content: space-around;
         align-items: start;
-        margin-right: 6rem;
+        margin-right: 7.5rem;
+        padding: 0px 4rem;
+
 
         &__item{
             text-decoration: none;
-            
+            color: var(--color-black);
+        }
+        &__item:hover{
+            color: var(--color-main);
         }
     }
 
     &--contact{
         grid-column: 3 / -1;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        &__icon{
+            fill: var(--grey-black-light-2);
+            height: 1.6rem;
+            width: 1.6rem;
+            margin-bottom: -0.1rem;
+        }
+
+        &__text{
+            color: var(--color-black-light);
+            font-size: $main-font-size;
+            text-transform: capitalize;
+            padding-left: 0.5rem;
+        }
+
+        &__text:hover{
+            color:var(--color-main)
+        }
     }
 
+    
 }
+
