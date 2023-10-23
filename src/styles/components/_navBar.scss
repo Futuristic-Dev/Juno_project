@@ -3,18 +3,23 @@
 
     display: grid;
     grid-template-columns: 15rem 1fr 10rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
 
     &--logo{
         grid-row: 1 / 2;
-        width: 4rem;
+        width: 7rem;
         height: 5rem;
+        padding-left: 1rem;
     }
 
     &--lists{
         grid-column: 2 / 3;
         display: flex;
         justify-content: space-around;
-        
+        align-items: start;
+        margin-right: 6rem;
 
         &__item{
             text-decoration: none;
