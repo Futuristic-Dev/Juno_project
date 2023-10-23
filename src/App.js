@@ -6,18 +6,19 @@ import { ReactComponent as Search } from './SVG/magnifying-glass.svg';
 import { ReactComponent as FaceBook } from './SVG/facebook.svg';
 import { ReactComponent as X } from './SVG/x.svg';
 import { ReactComponent as Instagram } from './SVG/instagram.svg';
-// import Banner from './sections/Banner'
-// import Experts from './sections/Experts'
-// import Choose from './sections/ChooseUs'
-// import Projects from './sections/Projects'
+import Banner from './sections/Banner'
+import Experts from './sections/Experts'
+import Choose from './sections/ChooseUs'
+import Projects from './sections/Projects'
 // import AboutCard from './sections/AboutCards'
-// import About from './sections/AboutSection'
-// import NavBar from './sections/NavBar'
-// import Services from './sections/OurServices'
-// import Scheme from './sections/Scheme'
 // import TopLink from './sections/TopLinks'
-// import Recommend from './sections/Recommendation'
-// import Footer from './sections/Footer'
+// import NavBar from './sections/NavBar'
+import About from './sections/AboutSection'
+import Services from './sections/OurServices'
+import Scheme from './sections/Scheme'
+import Recommend from './sections/Recommendation'
+import Footer from './sections/Footer'
+import PhoneInTalk from './SVG/phone_in_talk.svg'
 
 function App() {
   return (
@@ -68,9 +69,7 @@ function App() {
           </ul>
         </div>
         <div className='nav-bar'>
-          <a className='nav-bar--logo'>
-            <img src='./logo.png'></img>
-          </a>
+            <img src='./logo.png' className='nav-bar--logo'></img>
           <ul className='nav-bar--lists'>
             <li className='nav-bar--lists__item'><a href='#'>Home</a></li>
             <li className='nav-bar--lists__item'><a href='#'>Abouts</a></li>
@@ -85,22 +84,37 @@ function App() {
       </nav>
     </header>
     <main className='main'>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section>
+      <Banner></Banner>
+    </section>
+    <section>
+      <About></About>
+    </section>
+    <section>
+      <Services></Services>
+    </section>
+    <section>
+      <Choose></Choose>
+    </section>
+    <section>
+      <Projects></Projects>
+    </section>
+    <section>
+      <Scheme></Scheme>
+    </section>
+    <section>
+      <Experts></Experts>
+    </section>
+    <section>
+      <Recommend></Recommend>
+    </section>
     </main>
-    <footer className='footer'> </footer>
+    <footer className='footer'>
+      <Footer></Footer>
+    </footer>
     </div>
   );
+
 }
 
 export default App;
