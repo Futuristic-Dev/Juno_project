@@ -1,4 +1,8 @@
 .main{
     grid-row: 2 / 3;
     grid-column: 1 / -1;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 80vh 82.3rem 74.6rem 52.38rem 52.2rem 37.32rem 45.32rem 45rem;
 }
