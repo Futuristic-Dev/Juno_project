@@ -1,0 +1,16 @@
+@mixin cardBase {
+    box-shadow: 1px 1px .8rem 1px rgba(var(--color-black), .10);
+    background-color: var(--color-white);
+}
+
+@mixin cardText{
+    font-size: $card-font-size-paragraph;
+    line-height: 1.8;
+    text-align: center;
+}
+
+@mixin cardHeading{
+    text-transform: capitalize;
+    font-weight: 800;
+    margin: 0 0 -2rem 0;
+}
