@@ -1,0 +1,57 @@
+.about-cards{
+    display: block;
+        width: 15.5rem;
+        height: 18.56rem;
+        @include cardBase;
+        background-color: var(--color-white);
+        border-radius: .4rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    &__holder{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        &--icon{
+            grid-column: 1 / 2;
+            background-color: var(--color-black);
+            width: 8.375rem;
+            height: 7.5rem;
+            margin-top: -0.66rem;
+            overflow: hidden;
+            border-radius: .35rem 0 3.658rem 0rem; 
+            display: grid;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        &--number{
+            grid-column: 2 / -1;
+            font-size: 4rem;
+            font-family: Manrope;
+            opacity: .4;
+        }
+    }
+
+    
+
+    &__heading{
+        font-size: $about-card-heading;
+        @include cardHeading;
+    }
+
+    &__paragraph{
+        @include cardText;
+        padding:.5rem;
+    }
+
+    &__icon{
+        fill: var(--color-white);
+        height: 6rem;
+        width: 5rem;
+    }
+}
