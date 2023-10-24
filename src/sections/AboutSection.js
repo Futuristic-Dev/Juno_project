@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import AboutCards from '../components/AboutCards';
+
 
 function AboutSection() {
   return (
-    <div className='about'>AboutSection</div>
+    <div className='about'>
+      <div className='about-top'>
+        <AboutCards></AboutCards>
+        <AboutCards></AboutCards>
+        <AboutCards></AboutCards>
+      </div>
+    </div>
   )
 }
 
