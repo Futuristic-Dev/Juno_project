@@ -1,0 +1,37 @@
+.banner-con{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 70%;
+    
+    &--heading-secondary{
+        font-size: $heading-secondary;
+        color: var(--color-main);
+        text-transform: capitalize;
+        margin: 1rem 0rem;
+    }
+    
+    &--header-main{
+        font-size: $heading-main;
+        line-height: 1.25;
+        /* padding: 0 1rem; */
+        margin: 0;
+        text-transform: capitalize;
+        text-align: start;
+        color: var(--color-white-light-2);
+    }
+
+    
+    &--paragraph{
+        font-size: $card-font-size-paragraph;
+        text-align: start;
+        padding-right: 11rem;
+        color: var(--color-white-light-2);
+        margin: 0.5rem 0rem 2rem 0rem;
+    }
+}
+
