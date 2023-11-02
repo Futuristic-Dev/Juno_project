@@ -1,0 +1,11 @@
+.button{
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: var(--color-main);
+    padding: .7rem 2rem;
+    font-size: $main-font-size;
+    color: var(--color-white-light-2);
+    text-transform: capitalize;
+    text-align: center;
+}
