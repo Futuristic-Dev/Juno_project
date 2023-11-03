@@ -1,10 +1,11 @@
 .navigation{
     &-top{
-        display:grid;
-        grid-template-columns: repeat(2 , 1fr);
+        grid-row: 1 / 2;
+
+        display:flex;
+        // grid-template-columns: repeat(2 , 1fr);
         // grid-column-gap: 18rem;
         height: 100%;
-        grid-row: 1 / 2;
         background-color: var(--color-black-light);
         justify-content: center;
         align-items: center;
@@ -18,7 +19,8 @@
 
             
             &__item{
-                margin-left: 2rem;
+                // margin-left: 2rem;
+                margin-right: 2.5rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -31,13 +33,22 @@
             grid-column: 2 / -1;
             justify-self: stretch;
             justify-content: space-around;
-            padding-left: 25rem;
+            margin-left: 20rem;
             margin-right: 2rem;
 
          &__item{
-            margin-left: 2rem;
+            margin-left: 5rem;
+            padding: 0rem 6rem 0rem  0rem;
          }
         }
     }
 
+}
+.social-icon{
+    margin-right: 1.8rem;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
