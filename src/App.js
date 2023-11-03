@@ -1,11 +1,5 @@
 import './App.css';
 import './styles/main.scss'
-import { ReactComponent as Envelope } from './SVG/email.svg';
-import { ReactComponent as Location } from './SVG/location-pin.svg';
-import { ReactComponent as Search } from './SVG/magnifying-glass.svg';
-import { ReactComponent as FaceBook } from './SVG/facebook.svg';
-import { ReactComponent as X } from './SVG/x.svg';
-import { ReactComponent as Instagram } from './SVG/instagram.svg';
 import Banner from './sections/Banner'
 import Experts from './sections/Experts'
 import Choose from './sections/ChooseUs'
@@ -18,6 +12,7 @@ import Services from './sections/OurServices'
 import Scheme from './sections/Scheme'
 import Recommend from './sections/Recommendation'
 import Footer from './sections/Footer'
+import NaviagationTop from './components/NaviagationTop';
 
 
 function App() {
@@ -26,49 +21,7 @@ function App() {
       
     <header className='header'>
       <nav className='navigation'>
-        <div className='navigation-top'>
-          <ul className='navigation-top--contacts'>
-            <li className='navigation-top--contacts__item'>
-              <a href='#'>
-                <Location className='navigation-icon'></Location>
-                <span>
-                 Mayfare, Sunyani
-               </span>
-              </a>
-            </li>
-            <li className='navigation-top--contacts__item'>
-              <a href='#'>
-                <Envelope className='navigation-icon'></Envelope> 
-                <span>
-                  solomon@gmail.com
-                </span>
-              </a>
-              
-            </li>
-            <li className='navigation-top--contacts__item'>
-              <a href='#'>
-                <Search className='navigation-icon'></Search>
-              </a>
-            </li>
-          </ul>
-          <ul className='navigation-top--socials'>
-            <li className='navigatoin-top--socials__item'>
-              <a href='#'>
-                <FaceBook className='navigation-icon'></FaceBook>
-              </a>
-            </li>
-            <li className='navigatoin-top--socials__item'>
-              <a href='#'>
-                <X className='navigation-icon'></X>
-              </a>
-            </li>
-            <li className='navigatoin-top--socials__item'>
-              <a href='#'>
-                <Instagram className='navigation-icon'></Instagram>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <NaviagationTop></NaviagationTop>
         <NavBar></NavBar>
       </nav>
     </header>
