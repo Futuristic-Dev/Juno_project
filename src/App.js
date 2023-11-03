@@ -11,7 +11,7 @@ import About from './sections/AboutSection'
 import Services from './sections/OurServices'
 import Scheme from './sections/Scheme'
 import Recommend from './sections/Recommendation'
-import Footer from './sections/Footer'
+import Footer from './sections/Footer' 
 import NaviagationTop from './components/NaviagationTop';
 
 
