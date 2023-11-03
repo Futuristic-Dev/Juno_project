@@ -5,12 +5,16 @@
 
 @mixin cardText{
     font-size: $card-font-size-paragraph;
-    line-height: 1.8;
-    text-align: center;
+    line-height: 1.5;
+    text-align:start;
+    padding: 0rem 1.5rem;
 }
 
 @mixin cardHeading{
     text-transform: capitalize;
     font-weight: 800;
-    margin: 0 0 -2rem 0;
+}
+
+@mixin boxShadow{
+   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.10); 
 }
