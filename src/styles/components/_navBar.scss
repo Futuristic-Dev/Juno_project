@@ -1,31 +1,31 @@
 .nav-bar{
     grid-row: 2 / -1;
 
-    display: grid;
+    display: flex;
     grid-template-columns: 15rem 1fr 10rem;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-size: $main-font-size;
+    height: 100%;
 
     &--logo{
-        grid-row: 1 / 2;
         width: 7rem;
         height: 5rem;
         padding-left: 1rem;
     }
 
     &--lists{
-        grid-column: 2 / 3;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: start;
-        margin-right: 7.5rem;
-        padding: 0px 4rem;
+        margin-right: -6rem;
+
 
 
         &__item{
             text-decoration: none;
             color: var(--color-black);
+            padding: 0px 1.5rem;
         }
         &__item:hover{
             color: var(--color-main);
@@ -33,16 +33,13 @@
     }
 
     &--contact{
-        grid-column: 3 / -1;
         display: flex;
         justify-content: start;
         align-items: center;
-
+        margin-right: 9rem;
         &__icon{
-            fill: var(--grey-black-light-2);
-            height: 1.6rem;
-            width: 1.6rem;
-            margin-bottom: -0.1rem;
+            height: 3.6rem;
+            width: 2.6rem;
         }
 
         &__text{
