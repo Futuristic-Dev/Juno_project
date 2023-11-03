@@ -1,5 +1,5 @@
 import React from 'react'
-import {ReactComponent as PhoneInTalk} from '../SVG/phone_in_talk.svg'
+import {ReactComponent as PhoneInTalk} from '../SVG/call.svg'
 function NavBar() {
   return (
     <div className='nav'>
