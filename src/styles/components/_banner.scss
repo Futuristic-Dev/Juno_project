@@ -6,17 +6,19 @@
     flex-direction: column;
     align-items: start;
     justify-content: space-between;
-    width: 70%;
+    width: 75%;
     
     &--heading-secondary{
         font-size: $heading-secondary;
         color: var(--color-main);
         text-transform: capitalize;
-        margin: 1rem 0rem;
+        margin: 2rem 0rem 1.5rem 0rem;
     }
     
     &--header-main{
         font-size: $heading-main;
+        font-weight: 800;
+        word-spacing: .89;
         line-height: 1.25;
         /* padding: 0 1rem; */
         margin: 0;
@@ -27,11 +29,12 @@
 
     
     &--paragraph{
-        font-size: $card-font-size-paragraph;
+        font-size: $banner-font-size-paragraph;
         text-align: start;
-        padding-right: 11rem;
+        padding-right: 20rem;
+        line-height: 1.8;
         color: var(--color-white-light-2);
-        margin: 0.5rem 0rem 2rem 0rem;
+        margin: 1rem 0rem 3rem 0rem;
     }
 }
 
