@@ -10,8 +10,8 @@ function Banner() {
         building a generation of skilled engineers
       </h1>
       <p className='banner-con--paragraph'>
-        This is simply dummy text of the printing typesetting industry has been
-        industry's standard dummy text 
+        This is simply dummy text of the printing setting industry has been the
+        industry's standard
       </p>
       <ButtonMain></ButtonMain>
       </div>
