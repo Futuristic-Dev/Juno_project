@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const HeaderSecondary = () => {
+const HeaderSecondary = (props) => {
+  const { heading } = props;
+  // console.log(heading);
   return (
     <>
-        <h3 className='banner-con--heading-secondary'>
-            innovation comes to life
-        </h3>
+      <h3 className="banner-con--heading-secondary">{heading}</h3>
     </>
-  )
-}
+  );
+};
 
-export default HeaderSecondary
+export default HeaderSecondary;
