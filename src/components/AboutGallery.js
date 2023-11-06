@@ -16,15 +16,7 @@ function AboutGallery() {
         className="about-gallery__img-1"
         alt="aboutimage"
         src={RigImage}
-        style={{
-          gridRow: "2 / 15",
-          gridColumn: "4 / 20",
-          width: "100%",
-          height: "86%",
-          borderRadius:'.9rem'
-          
-        }}
-      ></img>
+        >
       <img className="about-gallery__img-2" alt="aboutimage"
       style={{
         gridRow: "7 / -1",
