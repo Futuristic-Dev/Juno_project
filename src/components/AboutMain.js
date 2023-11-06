@@ -18,7 +18,7 @@ function AboutMain() {
       // padding: '4rem 0rem',
       display: 'flex',
       flexDirection: 'column',
-      paddingTop: '5rem',
+      paddingTop: '4.8rem',
       justifyContent:'start',
       alignItems:'start'
     }}>
