@@ -1,25 +1,29 @@
+/**
 .aboutGallery {
-    padding: none;
-    margin: none;
-    
+  padding: none;
+  margin: none;
 }
 
-.about-gallery__img-1{
-    display: grid;
-    background-image: url('./rig-image.jpeg');
-    grid-template-columns: (8, 1fr); /* Two columns, equal width */
-    grid-template-rows: 1fr 1fr;
-    grid-area: 70%;
-    background-size: cover;
-  }
-  
-  .about-gallery__img-2 {
-    background-size: 50%;
-    background-image: url('./female-engs-with-laptop.jpeg');
-  }
-  
-   /* .image3 {
+.about-gallery__img-1 {
+  display: grid;
+  background-image: url("./rig-image.jpeg");
+  grid-template-columns: (8, 1fr); Two columns, equal width 
+  grid-template-rows: 1fr 1fr;
+  grid-area: 70%;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.about-gallery__img-2 {
+  background-size: 50%;
+  width: 100%;
+  height: 100%;
+  background-image: url("./female-engs-with-laptop.jpeg");
+} 
+*/
+
+/* .image3 {
     grid-area: 2 / 1 / 3 / 2; /* Fill a quarter of the grid */
-    /* background-image: url('image3.jpg'); */
-    /* background-size: cover; */
-   
+/* background-image: url('image3.jpg'); */
+/* background-size: cover; */
