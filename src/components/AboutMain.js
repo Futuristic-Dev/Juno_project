@@ -20,10 +20,16 @@ function AboutMain() {
       flexDirection: 'column',
       paddingTop: '4.8rem',
       justifyContent:'start',
-      alignItems:'start'
+      alignItems:'start',
     }}>
       <HeaderSecondary heading="about us"></HeaderSecondary>
-      <HeaderTertiary heading="Leading force in advanced technology"></HeaderTertiary>
+      <div style={
+        {
+          paddingRight:'8rem'
+        }
+      }>
+      <HeaderTertiary className="tertiary" heading="Leading force in advanced technology"></HeaderTertiary>
+      </div>
       <p
         className="about-main--paragraph"
         style={{
