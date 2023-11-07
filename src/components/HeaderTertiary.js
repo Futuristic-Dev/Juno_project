@@ -10,7 +10,7 @@ function HeaderTertiary(props) {
           fontWeight:'800',
           margin:'0rem',
           lineHeight:'3.5rem',
-          paddingRight:'8rem',
+          // paddingRight:'8rem'
         }}
       >{heading}</h2>
     </>
