@@ -3,7 +3,7 @@ import {ReactComponent as Correct} from "../SVG/correct.svg";
 
 const AboutLists = (props) => {
     const {text} = props;
-    console.log(text);
+    // console.log(text);
 
   return (
 
