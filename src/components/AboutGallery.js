@@ -4,11 +4,11 @@ import EngImage from "../Asah_Images/Rectangle 10.png";
 function AboutGallery() {
   return (
     <div className="about-gallery">
-      <img className="about-gallery__img-1" alt="aboutimage" src={RigImage} />
+      <img className="about-gallery__img-1" alt="aboutimage" /*src={RigImage}*/ />
       <img
         className="about-gallery__img-2"
         alt="aboutimage"
-        src={EngImage}
+        // src={EngImage}
       ></img>
       <img className="about-gallery__img-3" alt="aboutimage"></img>
       <div className="about-gallery__banner">
