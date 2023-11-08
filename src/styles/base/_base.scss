@@ -34,6 +34,9 @@
 *::before,
 *::after{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 body{
     font-size: 62.5%;
@@ -46,4 +49,7 @@ body{
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+section{
+    height: 100%;
 }
