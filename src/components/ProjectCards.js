@@ -2,17 +2,20 @@ import React from 'react'
 
 function ProjectCards({img}) {
 
-    console.log(img);
+    // console.log(img);
   return (
-    <div style={{
-        width:'24.584rem',
-        height:'18.48563rem',
+    <div  className='image--container' style={{
+        width:'22.584rem',
+        height:'17.48563rem',
         borderRadius:'.6rem',
+        position:'relative'
     }}>
-        <img src={img} style={{
+        <img className='project--cards__image' src={img} style={{
             width:'100%',
             height:'100%'
-        }}></img>
+        }}>
+          
+        </img>
     </div>
   )
 }
