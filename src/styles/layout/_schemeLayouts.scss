@@ -1,5 +1,14 @@
 .scheme{
     grid-row: 6 / 7;
     height: 100%;
-    background-color: var(--color-grey-ash-1);
+    // background-color: rgba($color: #000000, $alpha: .7);
+    background-image:linear-gradient(to bottom, rgba(0,0,0,.7) 100%, rgb(255, 255, 255)), 
+    url('../_.jpeg');
+    background-size: 100%;
+    // background-clip: content-box;
+}
+
+.scheme-card:hover .scheme-card__number{
+    border:solid .2rem var(--color-black);
+    background-color: red;
 }
