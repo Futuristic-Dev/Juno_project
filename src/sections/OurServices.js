@@ -10,7 +10,7 @@ import ServiceImg_4 from "../Asah_Images/service_img_4.png";
 import ServiceImg_5 from "../Asah_Images/service_img_5.png";
 import ServiceImg_6 from "../Asah_Images/service_img_6.png";
 import ServiceImg_7 from "../Asah_Images/service_img_7.png";
-import ServiceImg_8 from "../Asah_Images/service_img_8.png";
+import ServiceImg_8 from "../Asah_Images/service_img_1.png";
 
 import ServiceIcons_1 from "../SVG/serv_icon_1.svg";
 import ServiceIcons_2 from "../SVG/serv_icon_2.svg";
@@ -123,7 +123,7 @@ function OurServices() {
           paddingTop: "2rem",
           display: "grid",
           gridTemplateColumns: "repeat(4, 1fr)",
-          gridTemplateRows:'repeat(2, 1fr)',
+          gridTemplateRows: "repeat(2, 1fr)",
           gridGap: "1rem",
         }}
       >
