@@ -1,0 +1,16 @@
+.experts-card{
+        width: 21.24419rem;
+        height: 28.65906rem;
+
+        &::before{
+            content: '';
+            
+            height: 25.65906rem;
+            width: 20.24419rem;
+            position: absolute;
+            z-index: -1;
+            border-radius: .6rem;
+            border: 3px dashed var(--color-main);
+            transform: rotate(356deg) translateY(4%) translateX(2%);
+        }
+}
