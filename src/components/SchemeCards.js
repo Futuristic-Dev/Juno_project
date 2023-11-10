@@ -1,5 +1,7 @@
 import { hover } from "@testing-library/user-event/dist/hover";
 import React , {useState} from "react";
+import wave from "../Asah_Images/wave_3.avif";
+
 
 function SchemeCards(props) {
    const {list} = props;
@@ -9,9 +11,10 @@ function SchemeCards(props) {
 
 const [hovered, setHover] = useState(false);
 const hoverStyle = {
-    backgroundColor:"var(--color-black)",
+    // backgroundColor:"var(--color-black)",
     color:'var(--color-white)',
-    boxShadow:'1px 1px 10px 1px rgba(255, 255, 255, .1)'
+    boxShadow:'1px 1px 10px 1px rgba(255, 255, 255, .1)',
+    backgroundImage:`linear-gradient(rgba(0, 0, 0, .95), rgba(0,0,0,.9)),url(${wave})`,
 }
 
 const schemeCard = {
