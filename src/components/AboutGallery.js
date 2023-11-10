@@ -1,6 +1,6 @@
 import React from "react";
 import RigImage from "../styles/layout/rig-image.jpeg";
-import EngImage from "../Asah_Images/Rectangle 10.png";
+import EngImage from "../Asah_Images/lady_and_robot-arm.png";
 function AboutGallery() {
   return (
     <div className="about-gallery">
