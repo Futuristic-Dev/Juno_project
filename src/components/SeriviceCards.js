@@ -1,5 +1,8 @@
 import React from "react";
 import Mechatronics from "../Asah_Images/mechatronics.png";
+import Icon from '../SVG/bank.svg';
+
+
 function SeriviceCards() {
   return (
     <div
@@ -15,6 +18,9 @@ function SeriviceCards() {
       }}
     >
       <img alt="pictures" src={Mechatronics}></img>
+      <div>
+        <img src={Icon}></img>
+      </div>
       <div
         style={{
           height: "100%",

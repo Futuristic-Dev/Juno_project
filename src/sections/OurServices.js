@@ -4,6 +4,10 @@ import HeaderTertiary from "../components/HeaderTertiary";
 import Description from "../components/Description";
 import SeriviceCards from "../components/SeriviceCards";
 
+const serv_info = [
+  
+]
+
 function OurServices() {
   return (
     <div
