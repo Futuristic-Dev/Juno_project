@@ -5,7 +5,9 @@ const HeaderSecondary = (props) => {
   // console.log(heading);
   return (
     <>
-      <h3 className="banner-con--heading-secondary">{heading}</h3>
+      <h3 className="banner-con--heading-secondary">
+        {heading}
+      </h3>
     </>
   );
 };
