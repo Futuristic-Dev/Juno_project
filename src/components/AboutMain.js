@@ -43,6 +43,7 @@ function AboutMain() {
         We are the forefront of mechatronics research, where the realms of
         mechanical, electronics and software engineering intersects to create
         revolutionary solutions
+        
       </p>
       <div style={{
         marginBottom:'1.6rem'
