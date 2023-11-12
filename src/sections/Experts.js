@@ -9,14 +9,14 @@ function Experts() {
         display:'flex',
         flexDirection:'column',
         justifyContent:'center',
-        alignItems:'center'
+        alignItems:'center',
       }}
     >
       <div style={{
         display:'flex',
         flexDirection:'column',
         justifyContent:'center',
-        alignItems:'center'
+        alignItems:'center',
       }}>
         <HeaderSecondary heading='Our Experts'></HeaderSecondary>
         <HeaderTertiary heading='Meet Our Experienced Team'></HeaderTertiary>
