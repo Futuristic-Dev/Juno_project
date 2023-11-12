@@ -50,7 +50,7 @@ function App() {
           <Experts></Experts>
         </section>
         <section style={{
-          marginTop:'14rem'
+          marginTop:'14rem',
         }}>
           <Recommend></Recommend>
         </section>
