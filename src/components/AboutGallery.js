@@ -5,6 +5,7 @@ function AboutGallery() {
   return (
     <div className="about-gallery">
       <img className="about-gallery__img-1" alt="aboutimage" /*src={RigImage}*/ />
+      
       <img
         className="about-gallery__img-2"
         alt="aboutimage"
