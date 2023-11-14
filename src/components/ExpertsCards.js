@@ -4,7 +4,7 @@ import icon from '../SVG/share.svg'
 function ExpertsCards(props) {
 
   const {list} = props;
-  console.log(list);
+  // console.log(list);
   return (
     <div className='experts-card' style={{
       display:'flex',
