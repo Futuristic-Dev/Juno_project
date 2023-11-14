@@ -49,13 +49,15 @@ function App() {
         >
           <Experts></Experts>
         </section>
-        <section style={{
-          marginTop:'14rem',
-        }}>
+        {/* <section >
           <Recommend></Recommend>
-        </section>
+        </section> */}
       </main>
-      <footer className="footer">
+      <footer className="footer"
+      style={{
+        marginTop:'14rem',
+      }}
+      >
         <Footer></Footer>
       </footer>
     </div>
