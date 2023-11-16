@@ -8,4 +8,20 @@
     color: var(--color-white-light-2);
     text-transform: capitalize;
     text-align: center;
+    transition: all .2s ease-out;
+    backface-visibility: hidden;
+
+    &:hover{
+        background-color: var(--color-main-dark);
+        color: var(--color-white);
+        transform: translate(0px , -3px);
+        @include boxShadow;
+        backface-visibility: hidden;
+    }
+
+    &:active{
+        transform: translate(0px , -1px);
+        @include boxShadowActive;
+        backface-visibility: hidden;
+    }
 }
