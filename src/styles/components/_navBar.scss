@@ -57,3 +57,15 @@
     
 }
 
+.sticky{
+    position: -webkit-sticky;
+    position:fixed;
+    top: 0;
+    background-color: rgba(#ABABAB,.6);
+    backdrop-filter: blur(15px);
+    width: 100%;
+    @include boxShadow;
+    z-index: 10;
+    // background-blend-mode: ;
+  }
+  
