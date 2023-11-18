@@ -2,6 +2,9 @@
     grid-row: 2 / 3;
     grid-column: 1 / -1;
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 95vh max-content 74.6rem 52.38rem max-content 27.32rem 45.32rem;
+    grid-template-columns: 100vw;
+    grid-template-rows: 95vh max-content max-content 52.38rem max-content 27.32rem 45.32rem;
+    @include respond(tab-por){
+       grid-template-rows:  min-content max-content max-content 52.38rem max-content 27.32rem 45.32rem;
+    }
 }
