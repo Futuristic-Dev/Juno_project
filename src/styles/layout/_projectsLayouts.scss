@@ -2,12 +2,22 @@
     grid-row: 5 / 6;
     height: 100%;
     // background-color: var(--color-main);
+    @include respond(tab-por){
+        padding: 5rem 0rem !important;
+    }
 
     &--heading{
 
     }
 
     &--gallery{
+
+        @include respond(tab-por){
+            display: grid;
+            grid-template-columns: repeat(2, minmax(22rem, 1fr)) !important;
+            grid-template-rows: repeat(auto-fit, minmax(17rem, 1fr)) !important;
+            // overflow-x: auto;
+        }
         
     }
 
