@@ -1,24 +1,64 @@
 @mixin cardBase {
-    box-shadow: 1px 1px .8rem 1px rgba(var(--color-black), .10);
-    background-color: var(--color-white);
+  box-shadow: 1px 1px 0.8rem 1px rgba(var(--color-black), 0.1);
+  background-color: var(--color-white);
 }
 
-@mixin cardText{
-    font-size: $card-font-size-paragraph;
-    line-height: 1.5;
-    text-align:start;
-    padding: 0rem 1.5rem;
+@mixin cardText {
+  font-size: $card-font-size-paragraph;
+  line-height: 1.5;
+  text-align: start;
+  padding: 0rem 1.5rem;
 }
 
-@mixin cardHeading{
-    text-transform: capitalize;
-    font-weight: 800;
+@mixin cardHeading {
+  text-transform: capitalize;
+  font-weight: 800;
 }
 
-@mixin boxShadow{
-   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.10); 
+@mixin boxShadow {
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
 }
 
-@mixin boxShadowActive{
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.10);
+@mixin boxShadowActive {
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+//media Query manager.
+@mixin respond($breakpoint) {
+  // Query for all landscape - mobile phones 30em = 480px
+  @if ($breakpoint == mobile-land) {
+    @media (max-width: 30em) {
+      @content;
+    }
+  }
+  //Query for all protrait - mobile phones 48em = 768px
+  @if ($breakpoint == mobile-por) {
+    @media (max-width: 48em) {
+      @content;
+    }
+  }
+  //Query for all landscape - tablets 52.128em = 834px
+  @if ($breakpoint == tab-land) {
+    @media (max-width: 52.128em) {
+      @content;
+    }
+  }
+  //Query for all protrait - tablets 64em = 1024px
+  @if ($breakpoint == tab-por) {
+    @media (max-width: 64em) {
+      @content;
+    }
+  }
+  //Query for all laptop - 100em = 1600px
+  @if ($breakpoint == laptop) {
+    @media (max-width: 100em) {
+      @content;
+    }
+  }
+  //Query for all Desktops - 100em = 1600px all greater than
+  @if ($breakpoint == desktop) {
+    @media (min-width: 100em) {
+      @content;
+    }
+  }
 }
