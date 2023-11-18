@@ -33,6 +33,7 @@ function Experts() {
         flexDirection:'column',
         justifyContent:'center',
         alignItems:'center',
+        // height:'100%'
       }}
     >
       <div style={{
@@ -45,9 +46,14 @@ function Experts() {
         <HeaderTertiary heading='Meet Our Experienced Team'></HeaderTertiary>
       </div>
       <div style={{
+        width:'100vw'
+      }}>
+      <div style={{
         display:'grid',
         gridTemplateColumns: 'repeat(3, 22rem)',
         gridGap:'1.5rem',
+        overflowX:'auto',
+        overflowY:'visible'
         // justifyContent:'space-around'
       }}>
         {
@@ -55,6 +61,7 @@ function Experts() {
             return <ExpertsCards key={ind} list={val}/>
           })
         }
+      </div>
       </div>
     </div>
   )
