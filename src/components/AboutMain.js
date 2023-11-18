@@ -23,7 +23,7 @@ function AboutMain() {
       alignItems:'start',
     }}>
       <HeaderSecondary heading="about us"></HeaderSecondary>
-      <div style={
+      <div className="about-main__header--tertiary"style={
         {
           paddingRight:'8rem'
         }
