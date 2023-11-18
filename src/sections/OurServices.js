@@ -113,6 +113,7 @@ function OurServices() {
             paddingLeft: "3rem",
             gridColumn: "2 / -1",
           }}
+          className="service-text"
         >
           <Description description="Empowering maker of all levels with cutting-edge tools, collaboration and custom fabrication services. Join our community now!"></Description>
         </div>
@@ -122,10 +123,11 @@ function OurServices() {
         style={{
           paddingTop: "2rem",
           display: "grid",
-          gridTemplateColumns: "repeat(4, 1fr)",
+          gridTemplateColumns: "repeat(auto-fill, minmax(18.5rem , 18.6rem))",
           gridTemplateRows: "repeat(2, 1fr)",
           gridGap: "1rem",
         }}
+        className="services-gallery"
       >
         {serv_info.map((val, index) => {
           return <SeriviceCards key={index} list={val}></SeriviceCards>;
