@@ -6,15 +6,15 @@ function NavBar() {
   
 // const elementRef = useRef(document.querySelector('.nav'))
 useEffect(()=>{
-  document.querySelector('.nav').addEventListener('click', handleClick)
-  let observer = new IntersectionObserver(observerCallback,options)
+  // document.querySelector('.nav').addEventListener('click', handleClick)
+  // let observer = new IntersectionObserver(observerCallback,options)
   
-  observer.observe(document.querySelector('.banner'))
+  // observer.observe(document.querySelector('.banner'))
 
-  return () =>{
-    document.getElementById('nav').removeEventListener('click',handleClick)
-    observer.unobserve(document.querySelector('.banner'))
-  }
+  // return () =>{
+  //   document.getElementById('nav').removeEventListener('click',handleClick)
+  //   observer.unobserve(document.querySelector('.banner'))
+  // }
 },[])
 
   const options = {
