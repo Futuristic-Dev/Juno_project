@@ -10,6 +10,12 @@
   align-items: center;
   margin-bottom: 6rem;
 
+  @include respond (tab-por){
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    padding-top: 2rem;
+}
+
 
 
   &-top {
@@ -19,6 +25,17 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 6rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+    // width: 100vw;
+    @include respond (tab-por){
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 3rem;
+      margin: 0;
+      padding: 0 3rem;
+  }
 
     // &--container{
     // grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
@@ -30,7 +47,24 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
+    @include respond(tab-por){
+      grid-template-columns: 28rem 1fr;
+
+    }
 
   }
+  
+  &-main{
+    @include respond(tab-por){
+     padding-top: 2.8rem !important;
+    } 
+    
+    &__header--tertiary{
+    @include respond(tab-por){
+      margin: 0;
+      padding: 0 !important;
+    }    
+  }
+}
 }
 
