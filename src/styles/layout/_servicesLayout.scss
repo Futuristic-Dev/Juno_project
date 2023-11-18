@@ -1,4 +1,17 @@
 .services{
     grid-row: 3 / 4;
     height: 100%;
+
+    &-text{
+        @include respond(tab-por){
+            padding: 0;
+            margin: 0 !important;
+        }
+    }
+
+    &-gallery{
+        @include respond(tab-por){
+            justify-content: center;
+        }
+    }
 }
