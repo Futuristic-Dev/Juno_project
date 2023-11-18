@@ -44,9 +44,6 @@ function Scheme() {
         flexDirection:'column',
         alignItems:'center',
         paddingTop:'3rem',
-        // clipPath:'100% 0% , 100% 100%, 0% 100%, 50% 50% '
-        // backgroundClip:'polygon( 100% 100%, 0% 100% , 80% 100%, 100% 80%)'
-        // marginBottom:'11rem'
 
       }}
     >
@@ -60,19 +57,27 @@ function Scheme() {
       <HeaderTertiary heading="Our Standard Process of Working"></HeaderTertiary>
       </div>
       <div style={{
-        display:'grid',
-        gridTemplateColumns:'repeat(4, 18rem)',
-        gridGap:'.5rem',
-        justifyContent:'center',
-        alignItems:'center',
-        paddingTop:'2rem',
-        marginBottom:'7rem'
+        width:'100vw',
       }}>
-        {info_arr.map((list, key) => {
-           return <SchemeCards key={key} list={list}></SchemeCards>
-        })}
+        <div style={{
+          display:'grid',
+          gridTemplateColumns:'repeat(4, 18rem)',
+          gridGap:'.5rem',
+          justifyContent:'center',
+          alignItems:'center',
+          paddingTop:'2rem',
+          marginBottom:'7rem',
+          overflowX:'auto'
+
+          // overflow:'visible'
+          // overflowX:'auto'
+        }}>
+         {info_arr.map((list, key) => {
+             return <SchemeCards key={key} list={list}></SchemeCards>
+         })}
       </div>
       
+      </div>
       {/* <SchemeCards list={{...info_arr[1]}}></SchemeCards> */}
     </div>
   );
