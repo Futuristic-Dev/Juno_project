@@ -7,7 +7,9 @@
     align-items: start;
     justify-content: space-between;
     width: 75%;
-    
+    @include respond(mobile-por){
+        align-items: center;
+    }
     &--heading-secondary{
         font-size: $heading-secondary;
         color: var(--color-main);
@@ -25,6 +27,10 @@
         text-transform: capitalize;
         text-align: start;
         color: var(--color-white-light-2);
+        @include respond(mobile-por){
+            text-align: center;
+            padding: 1rem 3rem 1rem 3rem;
+        }
     }
 
     
@@ -35,6 +41,10 @@
         line-height: 1.8;
         color: var(--color-white-light-2);
         margin: 1rem 0rem 3rem 0rem;
+        @include respond(mobile-por){
+            text-align: center;
+            padding: 1rem 8rem 2rem 8rem;
+        }
     }
 }
 
