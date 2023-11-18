@@ -1,3 +1,4 @@
+@import './utilities/mixins';
 /** The base style file import to the main file*/
 @import "./base/_base.scss";
 
@@ -5,7 +6,6 @@
 
 /** Where we import all the utilities files */
 @import './utilities/variables';
-@import './utilities/mixins';
 
 
 /** Where we import all the layouts files for the page */
