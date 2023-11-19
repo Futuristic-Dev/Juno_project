@@ -2,5 +2,43 @@
     grid-row: 3 / -1;
     grid-column: 1 / -1;
     // background-color: red;
-    
+    // padding: 5rem;
+     &-display{
+         @include respond(tab-por){
+             width: 100% !important;
+            }
+            &__description{
+               @include respond(mobile-por){
+                   flex-direction: row !important;
+               }
+           }
+
+           &__get-in{
+            @include respond(mobile-por){
+                flex-direction: row !important;
+
+                padding: 0rem !important;
+            }
+
+            &--open{
+                padding: 0rem !important;
+
+            }
+           }
+
+           &__icons{
+            align-items: center !important;
+           }
+        }
+        & div{
+         @include respond(mobile-por){
+             grid-template-columns: auto !important;
+             grid-template-rows: repeat(3,1fr);
+             justify-content: center;
+             align-items: center;
+            //  padding: 0rem 5rem;
+         }
+        }
+
+        
 }
