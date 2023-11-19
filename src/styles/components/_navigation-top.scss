@@ -1,10 +1,18 @@
 .navigation{
-    @include respond (tab-por){
+    @include respond(mobile-por){
         display: none;
         visibility: hidden;
         width: 0;
         height: 0;
     }
+    @include respond (tab-por){
+        // display: none;
+        // visibility: hidden;
+        // width: 0;
+        // height: 0;
+        width: 100vw;
+    }
+
     &-top{
         grid-row: 1 / 2;
 
@@ -41,6 +49,10 @@
             justify-content: space-around;
             margin-left: 20rem;
             margin-right: 2rem;
+            @include respond(tab-por){
+                margin: 0rem 0rem 0rem 3rem;
+
+            }
 
          &__item{
             margin-left: 5rem;
