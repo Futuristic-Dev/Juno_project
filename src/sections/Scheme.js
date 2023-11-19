@@ -67,8 +67,8 @@ function Scheme() {
           alignItems:'center',
           paddingTop:'2rem',
           marginBottom:'7rem',
-          overflowX:'auto'
-
+          overflowX:'auto',
+          paddingBottom: '1rem',
           // overflow:'visible'
           // overflowX:'auto'
         }}>
