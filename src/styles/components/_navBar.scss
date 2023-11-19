@@ -38,6 +38,9 @@
         justify-content: start;
         align-items: center;
         margin-right: 9rem;
+        @include respond(tab-por){
+            margin-right: 3rem;
+        }
         &__icon{
             height: 3.6rem;
             width: 2.6rem;
