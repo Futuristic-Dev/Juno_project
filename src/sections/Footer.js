@@ -43,7 +43,7 @@ function Footer() {
           width: "85%",
         }}
       >
-        <div
+        <div className="footer-display__description"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -77,6 +77,8 @@ function Footer() {
             justifyContent: "space-around",
             alignItems: "start",
           }}
+
+          className="footer-display__get-in"
         >
           <div>
             <FooterHeaders heading="Get in Touch"></FooterHeaders>
@@ -84,7 +86,7 @@ function Footer() {
                 display:'flex',
                 justifyContent:'space-between',
                 alignItems:"start",
-                flexDirection:"column"
+                flexDirection:"column",
               }}>
               <div style={{
                 display:'flex',
@@ -111,17 +113,20 @@ function Footer() {
             <FooterHeaders heading="Open Hours"></FooterHeaders>
             <span style={{
               fontSize:'1.1rem'
-            }}>Mon - Sat: 8:00am to 5:00pm. <br></br>Sunday: Closed.</span>
+            }}
+            
+            >Mon - Sat: 8:00am to 5:00pm. <br></br>Sunday: Closed.</span>
           </div>
         </div>
         {/* <div></div> */}
         <div style={{
           display:'flex',
-          // justifyContent:'space-between',
           flexDirection:'column',
           paddingTop:'1.5rem',
           alignItems:'start'
-        }}>
+        }}
+        className="footer-display__icons"
+        >
           <FooterHeaders heading="Follow Us"></FooterHeaders>
           <div style={{
             display:'flex',
