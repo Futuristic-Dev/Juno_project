@@ -9,7 +9,7 @@ function FooterHeaders(props) {
             textTransform:'capitalize',
             padding:'1rem'
         }}>
-        {heading}
+          {heading}
         </h4>
     </>
   )
