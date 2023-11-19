@@ -1,17 +1,27 @@
 .services{
     grid-row: 3 / 4;
     height: 100%;
+    @include respond(mobile-por){
+        padding:  0rem 0rem 2rem 1rem !important;
+    }
 
     &-text{
         @include respond(tab-por){
             padding: 0;
             margin: 0 !important;
         }
+
+        @include respond(mobile-por){
+            padding: 0rem !important;
+        }
     }
 
     &-gallery{
         @include respond(tab-por){
             justify-content: center;
+        }
+        @include respond(mobile-por){
+            margin-top: 2rem;
         }
     }
 }
