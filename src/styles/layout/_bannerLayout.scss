@@ -15,12 +15,15 @@
     // display: flex;
     padding: 5rem;
 @include respond(tab-por){
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5rem 4rem 4rem 2rem;
   
 }
 @include respond(mobile-por){
   padding: 1rem;
-  height: 80vh;
+  // height: 80vh;
   width: 100vw;
 }
     // flex-direction: column;
