@@ -13,8 +13,8 @@ function Description(prop) {
           padding: "0rem 1rem 0rem 0rem",
           margin: "1rem 1rem 1.5rem 0rem",
           lineHeight: "2.1rem",
-          '@media(max-width: 64em)':{
-            padding:'0',
+          '@media(max-width:64)':{
+            padding:'0rem'
           }
         }}
       >
