@@ -48,9 +48,13 @@
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
     @include respond(tab-por){
-      grid-template-columns: 28rem 1fr;
-
+      grid-template-columns: 28rem 1fr;      
     }
+    @include respond(mobile-por){
+      grid-template-columns: 1fr;
+      grid-template-rows: 28rem max-content ;
+    }
+
 
   }
   
@@ -58,12 +62,25 @@
     @include respond(tab-por){
      padding-top: 2.8rem !important;
     } 
+    @include respond(mobile-por){
+      justify-content: center !important;
+      align-items: center !important;
+      padding: 3rem !important;
+    }
     
     &__header--tertiary{
     @include respond(tab-por){
       margin: 0;
       padding: 0 !important;
     }    
+
+    @include respond(mobile-por){
+      padding-left: 2rem !important;
+      text-align: center !important;
+    }
+  }
+  &--paragrapg{
+    
   }
 }
 }
