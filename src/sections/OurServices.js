@@ -87,7 +87,7 @@ function OurServices() {
       style={{
         backgroundColor: "var(--color-white-light-2)",
         height: "100%",
-        padding: "0rem 2rem 0rem 5rem",
+        padding: "0rem 2rem 2rem 5rem",
       }}
     >
       <div
@@ -113,7 +113,7 @@ function OurServices() {
             paddingLeft: "3rem",
             gridColumn: "2 / -1",
           }}
-          className="service-text"
+          className="services-text"
         >
           <Description description="Empowering maker of all levels with cutting-edge tools, collaboration and custom fabrication services. Join our community now!"></Description>
         </div>
