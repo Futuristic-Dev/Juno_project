@@ -24,29 +24,29 @@ function App() {
         </nav>
       </header>
       <main className="main">
-        <section id="#home_section">
+        <section id="home_section">
           <Banner></Banner>
         </section>
-        <section id="#about_section">
+        <section id="about_section">
           <About></About>
         </section>
-        <section id="#service_section">
+        <section id="service_section">
           <Services></Services>
         </section>
-        <section id="#choose_section">
+        <section id="choose_section">
           <Choose></Choose>
         </section>
-        <section id="#project_section">
+        <section id="project_section">
           <Projects></Projects>
         </section>
-        <section id="#scheme_section">
+        <section id="scheme_section">
           <Scheme></Scheme>
         </section>
         <section
           style={{
             marginTop: "11rem",
           }}
-          id="#expert_section"
+          id="expert_section"
         >
           <Experts></Experts>
         </section>
