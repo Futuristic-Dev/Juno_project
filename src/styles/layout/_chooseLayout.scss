@@ -2,4 +2,31 @@
     grid-row: 4 / 5;
     height: 100%;
     background-color: var(--color-black-light-1);
+
+     
+    @include respond(mobile-land){
+        width: 100vw;
+        padding: .5rem !important;
+        grid-template-columns: auto !important;
+    }
+
+    &-main{
+
+        &__container{
+            @include respond(mobile-land){
+                grid-template-rows: repeat(auto-fit, min-content);
+            grid-template-columns: auto !important;
+            justify-content: center;
+            }
+        }
+    }
+
+    & div{
+
+    }
+}
+#choose_section{
+ @include respond(mobile-land){
+    height: max-content;
+ }
 }
