@@ -11,7 +11,7 @@ const AboutLists = (props) => {
       justifyContent:'start',
       alignItems:'center',
       paddingBottom:'1rem'
-    }}>
+    }} className='about--list'>
         <Correct></Correct>
         <span style={{
           fontSize:'1.4rem',
