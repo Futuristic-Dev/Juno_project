@@ -16,6 +16,10 @@
         color: var(--color-main);
         text-transform: capitalize;
         margin: 2rem 0rem 1.5rem 0rem;
+
+        @include respond(mobile-land){
+            text-align: center;
+        }
     }
     
     &--header-main{
@@ -32,6 +36,12 @@
             text-align: center;
             // padding: 1rem 3rem 1rem 3rem;
         }
+        @include respond(mobile-land){
+         font-size: 2.5rem;
+        }
+         @include respond(mobile-small){
+            font-size: 2rem;
+         }
     }
 
     
@@ -42,10 +52,22 @@
         line-height: 1.8;
         color: var(--color-white-light-2);
         margin: 1rem 0rem 3rem 0rem;
+        @include respond(laptop){
+            padding: 0rem;
+        }
+
         @include respond(mobile-por){
             text-align: center;
             padding: 0rem 5rem;
             margin: 1rem;
+        }
+
+        @include respond(mobile-land){
+            padding: 0rem;
+            margin:1rem 0rem;
+        }
+        @include respond(mobile-small){
+            line-height: 1.3;
         }
     }
 }
