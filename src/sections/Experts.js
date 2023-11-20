@@ -48,7 +48,7 @@ function Experts() {
       <div style={{
         width:'100vw'
       }}>
-      <div style={{
+      <div className='experts-card__container' style={{
         display:'grid',
         gridTemplateColumns: 'repeat(3, 22rem)',
         gridGap:'1.5rem',
