@@ -98,6 +98,8 @@ function OurServices() {
           justifyContent: "center",
           alignItems: "center",
         }}
+
+        className="services-top"
       >
         <div
           style={{
@@ -119,6 +121,10 @@ function OurServices() {
         </div>
       </div>
 
+      <div className="serices-gallery__container" style={{
+        /*width:'100vw',*/
+        overflowX:'auto'
+      }}>
       <div
         style={{
           paddingTop: "2rem",
@@ -132,6 +138,7 @@ function OurServices() {
         {serv_info.map((val, index) => {
           return <SeriviceCards key={index} list={val}></SeriviceCards>;
         })}
+      </div>
       </div>
     </div>
   );
