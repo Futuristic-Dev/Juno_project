@@ -6,23 +6,55 @@
         padding: 5rem 0rem !important;
     }
 
-    &--heading{
+    @include respond(mobile-land){
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
 
+    &--header{
+        @include respond(mobile-land){
+            width: 100vw !important;
+        }
     }
 
     &--gallery{
 
+        & .image--container{
+            @include respond(mobile-land){
+                width: 16.584rem !important; 
+                height: 12.4856rem !important;
+            }
+        }
         @include respond(tab-por){
             display: grid;
             grid-template-columns: repeat(2, minmax(22rem, 1fr)) !important;
             grid-template-rows: repeat(auto-fit, minmax(17rem, 1fr)) !important;
             // overflow-x: auto;
         }
+        @include respond(mobile-land){
+            display: grid;
+            grid-template-columns: repeat(3, 1fr) !important;
+            grid-template-rows: repeat(2,1fr) !important;
+            overflow-x: auto;
+            grid-gap: .5rem !important;
+        }
+
+        &__container{
+            @include respond(mobile-land){
+                width: 100vw;
+                height: max-content;
+                overflow-y: visible !important;
+                padding-left: .5rem;
+
+            }
+        }
         
     }
 
     &--cards{
         transition: all cubic-bezier(0.645, 0.045, 0.355, 3) ease;
+        
+
         &__image{
             // background-color: red;
 
@@ -33,6 +65,10 @@
 
 .image--container:hover .project--cards__image{
     scale: 1.05;
+
+    @include respond(mobile-land){
+        scale: 1;
+    }
 }
 
 .project--gallery:hover .project--cards__image:not(:hover){
