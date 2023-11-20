@@ -59,16 +59,17 @@ function Scheme() {
       <div style={{
         width:'100vw',
       }}>
-        <div style={{
+        <div className="scheme-cards__container" style={{
           display:'grid',
           gridTemplateColumns:'repeat(4, 18rem)',
           gridGap:'.5rem',
-          justifyContent:'center',
+          // justifyContent:'center',
           alignItems:'center',
           paddingTop:'2rem',
           marginBottom:'7rem',
           overflowX:'auto',
           paddingBottom: '1rem',
+          paddingLeft:'1rem',
           // overflow:'visible'
           // overflowX:'auto'
         }}>
