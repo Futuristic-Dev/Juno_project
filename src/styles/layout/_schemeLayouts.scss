@@ -6,6 +6,17 @@
     url('../_.jpeg');
     background-size: 100%;
     // background-clip: content-box;
+
+    &-cards__container{
+        @include respond(laptop){
+            justify-content: center;
+        }
+        @include respond(tab-por){
+            justify-content: start;
+        }
+    
+    }
+
 }
 
 // .scheme-card:hover .scheme-card__number{
