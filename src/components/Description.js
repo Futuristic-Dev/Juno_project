@@ -7,6 +7,7 @@ function Description(prop) {
   return (
     <>
       <p
+      className="services-description"
         style={{
           fontSize: "1.5rem",
           fontWeight: "400",
