@@ -50,19 +50,17 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     // width: 100vw;
-
-    // @include respond(mobile-por){
-    //     font: size 50%;
-    // }
-    // @include respond(tab-por){
-    //     font-size:56.23%
-    // }
-} // @include respond(mobile-por){
-    //     font: size 50%;
-    // }
-    // @include respond(tab-por){
-    //     font-size:56.23%
-    // }
+    
+    @include respond(tab-por){
+        font-size:56.23%
+    }
+    @include respond(mobile-por){
+        font: size 50%;
+    }
+    @include respond(mobile-small){
+        font-size: 45%;
+    }
+}
 section{
     height: 100%;
 }
