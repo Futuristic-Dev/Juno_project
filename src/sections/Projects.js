@@ -36,6 +36,7 @@ function Projects() {
         <HeaderSecondary heading="Latest projects"></HeaderSecondary>
         <HeaderTertiary heading="Projects Built Recently Bulit By Us"></HeaderTertiary>
       </div>
+      <div className="project--gallery__container">
       <div className="project--gallery"
         style={{
           display: "grid",
@@ -50,6 +51,7 @@ function Projects() {
           <ProjectCards key={index} img={img_in}></ProjectCards>
         ))
         }
+      </div>
       </div>
     </div>
   );
