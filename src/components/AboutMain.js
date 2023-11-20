@@ -46,7 +46,8 @@ function AboutMain() {
         
       </p>
       <div style={{
-        marginBottom:'1.6rem'
+        marginBottom:'1.6rem',
+        padding:'.8rem'
       }}>
       {
         textList.map((list, index) =>
