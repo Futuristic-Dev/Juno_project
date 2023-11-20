@@ -54,33 +54,56 @@
       grid-template-columns: 1fr;
       grid-template-rows: 28rem max-content ;
     }
+    @include respond(mobile-land){
+      grid-template-rows: 1fr;
+    }
 
 
   }
   
   &-main{
     @include respond(tab-por){
-     padding-top: 2.8rem !important;
+      padding-top: 2.8rem !important;
     } 
     @include respond(mobile-por){
       justify-content: center !important;
       align-items: center !important;
       padding: 3rem !important;
     }
+    @include respond(mobile-land){
+      padding: 0rem !important;
+    }
     
     &__header--tertiary{
-    @include respond(tab-por){
-      margin: 0;
-      padding: 0 !important;
-    }    
-
-    @include respond(mobile-por){
-      padding-left: 2rem !important;
-      text-align: center !important;
-    }
+      @include respond(tab-por){
+        margin: 0;
+        padding: 0 !important;
+      }    
+      
+      @include respond(mobile-por){
+        padding-left: 2rem !important;
+        text-align: center !important;
+      }
+      @include respond(mobile-land){
+        padding: 0 !important;
+      }
   }
-  &--paragrapg{
-    
+  &--paragraph{
+     @include respond(mobile-land){
+      padding: 0rem 1.2rem !important;
+      margin: 1rem 0rem !important;
+      text-align: center;
+     }
+  }
+}
+
+&--list{
+  @include respond(mobile-land){
+    display: grid !important;
+    grid-template-columns: min-content 1fr;
+    justify-content: center;
+    align-items: start !important;
+    text-align: start !important;
   }
 }
 }
