@@ -4,7 +4,16 @@
     @include respond(mobile-por){
         padding:  0rem 0rem 2rem 1rem !important;
     }
+    @include respond(mobile-land){
+        padding: 0 !important;
+    }
 
+    &-top{
+        @include respond(mobile-land){
+            display: flex !important;
+            flex-direction: column;
+        }
+    }
     &-text{
         @include respond(tab-por){
             padding: 0;
@@ -13,6 +22,10 @@
 
         @include respond(mobile-por){
             padding: 0rem !important;
+        }
+        @include respond(mobile-land){
+            text-align: center;
+            padding-left: 1rem;
         }
     }
 
@@ -23,5 +36,15 @@
         @include respond(mobile-por){
             margin-top: 2rem;
         }
+        &__container{
+            @include respond(mobile-land){
+                width: 100vw;
+            }
+        }
+    }
+
+    &-description{
+        margin-right: 0rem !important;
+        padding: 0rem .5rem !important;
     }
 }
