@@ -36,7 +36,7 @@ function ChooseMain() {
     icon: icon_4
    },];
   return (
-    <div style={{
+    <div className='choose-main' style={{
         color:'var(--color-white-dark-1)',
         // border:'1px solid var(--color-white-dark-1)',
         // padding:'1rem 2rem'
@@ -44,7 +44,7 @@ function ChooseMain() {
         <HeaderSecondary heading='why choose us'></HeaderSecondary>
         <HeaderTertiary heading='Reasons To Choose Asah Maker Space'></HeaderTertiary>
         <Description description='We offer a dynamic environment where your ideas can transform to make positive impact on society.'></Description>
-        <div style={{
+        <div className='choose-main__container' style={{
             display:'grid',
             gridTemplateRows:'repeat(2, min-content)',
             gridTemplateColumns:'repeat(2, min-content)',
