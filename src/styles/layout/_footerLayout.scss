@@ -7,9 +7,17 @@
          @include respond(tab-por){
              width: 100% !important;
             }
+        
+        @include respond(mobile-land){
+            display: flex !important;
+            flex-direction: column;
+        }
             &__description{
                @include respond(mobile-por){
                    flex-direction: row !important;
+               }
+               @include respond(mobile-land){
+                flex-direction: column !important;
                }
            }
 
@@ -19,7 +27,12 @@
 
                 padding: 0rem !important;
             }
-
+            @include respond(mobile-land){
+                flex-direction: column !important;
+                width: 80%;
+                text-align: center;
+                align-items: center !important;
+            }
             &--open{
                 padding: 0rem !important;
 
@@ -28,6 +41,10 @@
 
            &__icons{
             align-items: center !important;
+            @include respond(mobile-land){
+                width: 80%;
+                padding: 0rem 0rem 1.5rem 0rem !important;
+            }
            }
         }
         & div{
@@ -40,5 +57,9 @@
          }
         }
 
-        
+        & .copyright{
+            @include respond(mobile-land){
+                text-align: center;
+            }
+        }
 }
