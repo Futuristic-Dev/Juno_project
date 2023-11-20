@@ -25,6 +25,13 @@
 
 //media Query manager.
 @mixin respond($breakpoint) {
+  //Query for all Moblie - medium 23.4375em = 375px 
+  @if ($breakpoint == mobile-small){
+    @media(max-width: 23.4375em){
+    @content;
+    }
+  }
+
   // Query for all landscape - mobile phones 30em = 480px
   @if ($breakpoint == mobile-land) {
     @media (max-width: 30em) {
