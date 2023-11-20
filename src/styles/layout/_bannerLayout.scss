@@ -26,6 +26,9 @@
   // height: 80vh;
   width: 100vw;
 }
+@include respond(mobile-land){
+  padding: 2rem 0rem;
+}
     // flex-direction: column;
     // justify-content: center;
     // align-items: start;
