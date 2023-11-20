@@ -12,8 +12,7 @@ function Banner() {
         <p
           className="banner-con--paragraph"
         >
-          This is simply dummy text of the printing setting industry has been
-          the industry's standard
+          In the ever-evolving tech landscape, innovation is the force driving us to new frontiers. Today's engineers aren't just problem solvers; they're visionaries, architects of change, and pioneers of progress.
         </p>
         <ButtonMain></ButtonMain>
       </div>
