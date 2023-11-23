@@ -4,6 +4,9 @@
   // grid-template-columns: repeat(13,1fr);
   // grid-template-rows: repeat(13,1fr);
 
+  @include respond(tab-por){
+    grid-template-rows: repeat(12, 1fr) !important;
+  }
   @include respond(mobile-por){
     // grid-template-columns: repeat(13, 1fr) !important;
     grid-template-rows: repeat(11, 1fr) !important;
