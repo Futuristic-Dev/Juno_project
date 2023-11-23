@@ -1,0 +1,55 @@
+.pop{
+
+    &-hidden{
+        width: 0;
+        visibility: hidden;
+        display: none;
+
+    }
+
+    &-display{
+        width: 100vw;
+        height: 100vh;
+        // background-color:  ;
+        visibility: visible; 
+    }
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(#000, .5);
+    backdrop-filter: blur(.5rem);
+    z-index: 2;
+    &-up{
+        // max-width: 80%;
+        width: 80vw;
+        height: 78vh;
+        background-color: #ffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &__item{
+            // width: 5rem;
+            font-size: 1.2rem;
+            border-radius: .3rem;
+            padding:0.6rem 2rem;
+            text-align: center;
+            margin: .5rem 0rem;
+
+            &--link{
+
+            }
+            &:hover{
+                background-color: #000;
+                color: #fff;
+    
+            }
+        }
+    }
+
+}
