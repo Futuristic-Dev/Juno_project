@@ -1,6 +1,9 @@
 .services{
     grid-row: 3 / 4;
     height: 100%;
+    @include respond(tab-por){
+        padding:  0rem 0rem 2rem 2rem !important;
+    }
     @include respond(mobile-por){
         padding:  0rem 0rem 2rem 1rem !important;
     }
@@ -9,6 +12,9 @@
     }
 
     &-top{
+        @include respond(tab-por){
+            height: max-content !important;
+        }
         @include respond(mobile-land){
             display: flex !important;
             flex-direction: column;
@@ -16,7 +22,8 @@
     }
     &-text{
         @include respond(tab-por){
-            padding: 0;
+
+            padding: 0 !important;
             margin: 0 !important;
         }
 
