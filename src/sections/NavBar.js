@@ -3,49 +3,54 @@ import { ReactComponent as PhoneInTalk } from "../SVG/call.svg";
 
 function NavBar() {
   const [intersectingState, setIntersection] = useState(false);
-  
-// const elementRef = useRef(document.querySelector('.nav'))
-useEffect(()=>{
-  // document.querySelector('.nav').addEventListener('click', handleClick)
-  // let observer = new IntersectionObserver(observerCallback,options)
-  
-  // observer.observe(document.querySelector('.banner'))
 
-  // return () =>{
-  //   document.getElementById('nav').removeEventListener('click',handleClick)
-  //   observer.unobserve(document.querySelector('.banner'))
-  // }
-},[])
+  const aboutRef = useRef(null);
+  const navRef = useRef(null);
+    useEffect(() => {
+      aboutRef.current = document.getElementById("about_section");
+
+
+    const menuElement = document.querySelector(".about_section");
+    aboutRef.current.addEventListener("click", handleClick);
+    let observer = new IntersectionObserver(observerCallback, options);
+
+
+    observer.observe(aboutRef.current);
+    return () => {
+      document.getElementById("nav").removeEventListener("click", handleClick);
+      observer.unobserve(aboutRef.current)
+    };
+  }, []);
 
   const options = {
-    root:document.querySelector('.banner'),
-    rootMargin:'0px',
-    threshold:0.70
-  }
+    // root: document.querySelector(".banner"),
+    rootMargin: "0px",
+    threshold: [0.15],
+  };
 
-  const observerCallback = (entries) =>{
-    entries.forEach(element => {
-      
-        // document.querySelector('.nav').classList.add('sticky')
-      if (!element.isIntersecting && element.intersectionRect.top <= 0){
-        document.getElementById('nav').classList.replace('nav','sticky')
-        }
-      if (!element.isIntersecting && element.intersectionRect.top > 0){
-        document.getElementById('nav').classList.replace('sticky', 'nav')
+  const observerCallback = (entries) => {
+    entries.forEach((element) => {
+      if(element.isIntersecting && element.intersectionRect.y > 0){
+        navRef.current.classList.replace('nav','sticky')
+        // console.log(navRef.current.classList)
+        
       }
-      // console.log(element.isIntersecting,element.intersectionRect.top)
-      setIntersection(element.isIntersecting)
-      // console.log(element.isIntersecting)
+      if(element.isIntersecting && element.intersectionRect.y == 0 || (!element.isIntersecting && element.intersectionRect.y > 0)){
+        navRef.current.classList.replace('sticky','nav')
+      }
+      // setIntersection(true);
     });
-  }
+  };
   const handleClick = (e) => {
     e.preventDefault();
-    const elementClass = e.target.parentNode.classList;
-    console.log(e.target.classList == 'nav-bar--lists__item')
-    if (elementClass == "nav-bar--lists__item") {
-      const parentElementId = e.target.parentNode.id;
+    const elementClass = e.target.closest('.nav-bar--lists__item');
+    // console.log(e.target.classList == "nav-bar--lists__item");
+    // console.log(elementClass);
+    if (elementClass) {
+      const parentElementId = elementClass.id;
       const targetElementText = parentElementId.replace("link", "section");
       const targetElement = document.getElementById(targetElementText);
+      console.log(targetElementText);
       targetElement.scrollIntoView({
         behavior: "smooth",
         block: "start",
@@ -55,8 +60,8 @@ useEffect(()=>{
   };
   // onClick={handleClick}
   return (
-    <div className="nav" id="nav">
-      <div className="nav-bar">
+    <div  ref={navRef} className="nav" id="nav">
+      <div ref={aboutRef} className="nav-bar">
         <img src="./logo.png" className="nav-bar--logo"></img>
         <ul className="nav-bar--lists">
           <li className="nav-bar--lists__item" id="#home_link">
