@@ -7,7 +7,12 @@
     align-items: center;
     font-size: $main-font-size;
     height: 100%;
-    
+    @include respond(mobile-por){
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
 
     &--logo{
         width: 7rem;
@@ -21,6 +26,9 @@
         justify-content: space-evenly;
         align-items: start;
         margin-right: -6rem;
+        @include respond(tab-por){
+            margin-right: 0rem;
+        }
 
 
 
@@ -40,7 +48,8 @@
         align-items: center;
         margin-right: 9rem;
         @include respond(tab-por){
-            margin-right: 3rem;
+            margin-right: 0rem;
+            // font-size: 1.1rem !important;
         }
         &__icon{
             height: 3.6rem;
@@ -52,6 +61,9 @@
             font-size: $main-font-size;
             text-transform: capitalize;
             padding-left: 0.5rem;
+            @include respond(tab-por){
+                font-size: 1.1rem ;
+            }
         }
 
         &__text:hover{
