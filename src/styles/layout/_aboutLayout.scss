@@ -48,7 +48,11 @@
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
     @include respond(tab-por){
-      grid-template-columns: 28rem 1fr;      
+      // grid-template-columns: 28rem 1fr; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;     
     }
     @include respond(mobile-por){
       grid-template-columns: 1fr;
@@ -63,7 +67,10 @@
   
   &-main{
     @include respond(tab-por){
-      padding-top: 2.8rem !important;
+      padding: 2.8rem 5.5rem !important;
+      justify-content: center !important;
+      align-items: center !important;
+
     } 
     @include respond(mobile-por){
       justify-content: center !important;
@@ -89,7 +96,8 @@
       }
   }
   &--paragraph{
-     @include respond(mobile-land){
+
+     @include respond(tab-por){
       padding: 0rem 1.2rem !important;
       margin: 1rem 0rem !important;
       text-align: center;
