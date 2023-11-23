@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import "./styles/main.scss";
 import Banner from "./sections/Banner";
@@ -13,12 +14,15 @@ import Scheme from "./sections/Scheme";
 import Recommend from "./sections/Recommendation";
 import Footer from "./sections/Footer";
 import NaviagationTop from "./components/NaviagationTop";
-
+import NavSmall from "./components/NavSmall";
+import PopUp from "./components/PopUp";
 function App() {
   return (
     <div className="container">
       <header className="header">
         <nav className="navigation">
+          <NavSmall></NavSmall>
+          <PopUp></PopUp>
           <NaviagationTop></NaviagationTop>
           <NavBar></NavBar>
         </nav>
@@ -54,10 +58,11 @@ function App() {
           <Recommend></Recommend>
         </section> */}
       </main>
-      <footer className="footer"
-      style={{
-        marginTop:'14rem',
-      }}
+      <footer
+        className="footer"
+        style={{
+          marginTop: "14rem",
+        }}
       >
         <Footer></Footer>
       </footer>
