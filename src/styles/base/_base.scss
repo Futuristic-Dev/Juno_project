@@ -50,7 +50,6 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     // width: 100vw;
-    
     @include respond(tab-por){
         font-size:56.23%
     }
@@ -60,6 +59,7 @@ body{
     @include respond(mobile-small){
         font-size: 45%;
     }
+   
 }
 section{
     height: 100%;
