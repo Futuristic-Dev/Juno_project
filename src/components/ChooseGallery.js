@@ -3,8 +3,11 @@ import wave_1 from '../SVG/wave(1).svg'
 
 function ChooseGallery() {
   return (
-    <div>
-        {/* <img src={wave_1}></img> */}
+    <div className='text--1'
+      style={{
+       
+      }}>
+        
     </div>
   )
 }
