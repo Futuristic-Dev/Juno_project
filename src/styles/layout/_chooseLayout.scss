@@ -21,6 +21,28 @@
         }
     }
 
+    &-gallery{
+        position:relative;
+
+        &__container{
+            position: absolute;
+            transform: rotate(40deg);
+            width: 15rem;
+            height: 15rem;
+            // padding: .2rem;
+            border: 5px solid #fff;
+            border-radius: 1rem;
+
+        }
+        &__images{
+           
+            width: 100%;
+            height: 100%;
+            border-radius: 1rem;
+            // transform: rotate(40deg);
+        }
+    }
+
     & div{
 
     }
