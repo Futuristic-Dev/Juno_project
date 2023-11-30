@@ -25,10 +25,10 @@
 
 //media Query manager.
 @mixin respond($breakpoint) {
-  //Query for all Moblie - medium 23.4375em = 375px 
-  @if ($breakpoint == mobile-small){
-    @media(max-width: 23.4375em){
-    @content;
+  //Query for all Moblie - medium 23.4375em = 375px
+  @if ($breakpoint == mobile-small) {
+    @media (max-width: 23.4375em) {
+      @content;
     }
   }
 
@@ -56,12 +56,11 @@
       @content;
     }
   }
- /** Query for all small- laptop screens 80em = 1280px*/
-  @if ($breakpoint == sm-laptop){
-    @media (max-width: 80em){
+  /** Query for all small- laptop screens 80em = 1280px*/
+  @if ($breakpoint == sm-laptop) {
+    @media (max-width: 80em) {
       @content;
     }
-
   }
   //Query for all laptop - 100em = 1600px
   @if ($breakpoint == laptop) {
