@@ -14,6 +14,9 @@
         @include respond(tab-por){
             justify-content: start;
         }
+        @include respond(sm-laptop){
+            justify-content: center;
+        }
     
     }
 
