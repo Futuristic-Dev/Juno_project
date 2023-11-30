@@ -7,13 +7,13 @@ import pic_3 from '../Asah_Images/pic_3.png'
 function ChooseGallery() {
   return (
     <div className='choose-gallery'>
-    <div className='choose-gallery__container' style={{
+    <div className='choose-gallery__container choose-gallery__container--1' style={{
       top:'30%',
       left:'5%'
     }} >
     <img className='choose-gallery__images' src={pic_1}></img>
     </div>
-    <div className='choose-gallery__container' 
+    <div className='choose-gallery__container choose-gallery__container--2' 
     style={{
       top: '25.5%',
       left: '61.8%'
@@ -21,7 +21,7 @@ function ChooseGallery() {
     >
     <img className='choose-gallery__images pic_2' src={pic_2}></img>
     </div>
-    <div className='choose-gallery__container'
+    <div className='choose-gallery__container choose-gallery__container--3'
     style={{
       top:'53%',
       left:'36%'
