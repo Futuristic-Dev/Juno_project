@@ -1,19 +1,18 @@
-.experts{
-    grid-row: 7 / 8;
-    height: 100%;
-    background-color: var(--color-main-light);
-    
-    &-card__container{
-        @include respond(laptop){
-            justify-content: center;
-        }
-        @include respond(tab-por){
-            justify-content:start;
-            padding-left: 1rem;
-        }
-        @include respond(sm-laptop){
-            justify-content: center;
-        }
-    }
+.experts {
+  grid-row: 7 / 8;
+  height: 100%;
+  background-color: var(--color-main-light);
 
+  &-card__container {
+    @include respond(laptop) {
+      justify-content: center;
+    }
+    @include respond(sm-laptop) {
+      justify-content: center;
+    }
+    @include respond(tab-por) {
+      justify-content: start;
+      padding-left: 1.5rem;
+    }
+  }
 }
