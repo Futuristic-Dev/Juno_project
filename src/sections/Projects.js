@@ -34,7 +34,7 @@ function Projects() {
         }}
       >
         <HeaderSecondary heading="Latest projects"></HeaderSecondary>
-        <HeaderTertiary heading="Projects Built Recently Bulit By Us"></HeaderTertiary>
+        <HeaderTertiary heading="Projects Recently Built By Us"></HeaderTertiary>
       </div>
       <div className="project--gallery__container">
       <div className="project--gallery"
