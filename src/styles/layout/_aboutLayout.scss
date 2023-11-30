@@ -37,6 +37,11 @@
       padding: 0 3rem;
   }
 
+  @include respond (sm-laptop){
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
     // &--container{
     // grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
     //     display: flex;
