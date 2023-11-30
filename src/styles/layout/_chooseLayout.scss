@@ -39,11 +39,11 @@
 
         // width: max-content;
         position:relative;
-        @include respond(tab-por){
-            display: none;
-            width: 0;
-            visibility: hidden;
-        }
+        // @include respond(tab-por){
+        //     display: none;
+        //     width: 0;
+        //     visibility: hidden;
+        // }
 
         @include respond(tab-land){
             display: none;
