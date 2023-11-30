@@ -56,6 +56,14 @@
       @content;
     }
   }
+
+  //Query for all small laptops - 80em = 1280px
+  @if ($breakpoint == sm-laptop){
+    @media (max-width: 80em){
+      @content;
+    }
+  }
+
   //Query for all laptop - 100em = 1600px
   @if ($breakpoint == laptop) {
     @media (max-width: 100em) {

@@ -23,6 +23,11 @@
 
     &-gallery{
         position:relative;
+        @include respond(tab-por){
+            display: none;
+            width: 0;
+            visibility: hidden;
+        }
 
         &__container{
             position: absolute;
