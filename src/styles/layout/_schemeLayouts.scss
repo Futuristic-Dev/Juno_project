@@ -1,24 +1,27 @@
-.scheme{
-    grid-row: 6 / 7;
-    height: 100%;
-    // background-color: rgba($color: #000000, $alpha: .7);
-    background-image:linear-gradient(to bottom, rgba(0,0,0,.7) 100%, rgb(255, 255, 255)), 
-    url('../_.jpeg');
-    background-size: 100%;
-    // background-clip: content-box;
+.scheme {
+  grid-row: 6 / 7;
+  height: 100%;
+  // background-color: rgba($color: #000000, $alpha: .7);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 100%,
+      rgb(255, 255, 255)
+    ),
+    url("../_.jpeg");
+  background-size: 100%;
+  // background-clip: content-box;
 
-    &-cards__container{
-        @include respond(laptop){
-            justify-content: center;
-        }
-        @include respond(tab-por){
-            justify-content: start;
-        }
-        @include respond(sm-laptop){
-            justify-content: center;
-        }
-    
+  &-cards__container {
+    @include respond(laptop) {
+      justify-content: center;
     }
+    @include respond(sm-laptop) {
+      justify-content: center;
+    }
+    @include respond(tab-por) {
+      justify-content: start;
+    }
+  }
 
 }
 
