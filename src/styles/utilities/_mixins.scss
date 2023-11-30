@@ -56,14 +56,23 @@
       @content;
     }
   }
+<<<<<<< HEAD
 
   //Query for all small laptops - 80em = 1280px
+=======
+ /** Query for all small- laptop screens 80em = 1280px*/
+>>>>>>> refs/remotes/origin/main
   @if ($breakpoint == sm-laptop){
     @media (max-width: 80em){
       @content;
     }
+<<<<<<< HEAD
   }
 
+=======
+
+  }
+>>>>>>> refs/remotes/origin/main
   //Query for all laptop - 100em = 1600px
   @if ($breakpoint == laptop) {
     @media (max-width: 100em) {

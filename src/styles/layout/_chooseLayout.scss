@@ -9,6 +9,18 @@
         padding: .5rem !important;
         grid-template-columns: auto !important;
     }
+    @include respond(tab-land){
+       grid-template-columns: auto !important;
+       justify-content: center;
+    }
+    // @include respond(tab-por){
+    //     grid-template-columns: 36rem !important;
+    // }
+
+    @include respond(sm-laptop){
+        padding: 3rem 1rem 4rem 3rem !important;
+        grid-gap: 2rem;
+    }
 
     &-main{
 
@@ -18,16 +30,38 @@
             grid-template-columns: auto !important;
             justify-content: center;
             }
+
+            
         }
     }
 
     &-gallery{
+
+        // width: max-content;
         position:relative;
         @include respond(tab-por){
             display: none;
             width: 0;
             visibility: hidden;
         }
+
+        @include respond(tab-land){
+            display: none;
+            visibility: hidden;
+            width: 0;
+        }
+        @include respond(tab-por){
+            // width: 0;
+            // display: none;
+            // visibility: hidden;
+        
+            position:unset;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
 
         &__container{
             position: absolute;
@@ -37,6 +71,38 @@
             // padding: .2rem;
             border: 5px solid #fff;
             border-radius: 1rem;
+            @include respond(tab-land){
+                display: none;
+                visibility: hidden;
+                width: 0;
+            }
+            @include respond(tab-por){
+                position: unset;
+            }
+            @include respond(sm-laptop){
+                width: 12rem;
+                height: 12rem;
+            }
+
+            &--1{
+                @include respond(sm-laptop){
+                    top: 34% !important;
+                    left: 7% !important;
+                }
+            }
+
+            &--2{
+                @include respond(sm-laptop){
+                    top: 30.5% !important;
+                    left: 60.8% !important;
+                }
+            }
+
+            &--3{
+                @include respond(sm-laptop){
+
+                }
+            }
 
         }
         &__images{
@@ -45,6 +111,7 @@
             height: 100%;
             border-radius: 1rem;
             // transform: rotate(40deg);
+            
         }
     }
 
