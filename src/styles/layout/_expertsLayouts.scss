@@ -11,6 +11,9 @@
             justify-content:start;
             padding-left: 1rem;
         }
+        @include respond(sm-laptop){
+            justify-content: center;
+        }
     }
 
 }
