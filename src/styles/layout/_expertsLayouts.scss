@@ -3,6 +3,7 @@
   height: 100%;
   background-color: var(--color-main-light);
 
+  
   &-card__container {
     @include respond(laptop) {
       justify-content: center;
@@ -15,4 +16,10 @@
       padding-left: 1.5rem;
     }
   }
+}
+
+#expert_section{
+        @include respond(mobile-land){
+            margin-top: 14rem !important;
+          }
 }
