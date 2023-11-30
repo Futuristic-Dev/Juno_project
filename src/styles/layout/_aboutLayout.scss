@@ -29,18 +29,22 @@
     scroll-behavior: smooth;
     scrollbar-width: 0;
     // width: 100vw;
+
     @include respond (tab-por){
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 3rem;
       margin: 0;
       padding: 0 3rem;
-  }
-
-  @include respond (sm-laptop){
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
+    }
+    
+    @include respond(sm-laptop){
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+      margin: 0;
+      padding: 0 2rem;
+    }
 
     // &--container{
     // grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
