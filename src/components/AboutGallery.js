@@ -1,5 +1,6 @@
 import React from "react";
 import RigImage from "../styles/layout/rig-image.jpeg";
+// import RigImage from "../Asha_images/JET.PNG";
 import EngImage from "../Asah_Images/lady_and_robot-arm.png";
 function AboutGallery() {
   const imageStyle ={
