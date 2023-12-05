@@ -2,28 +2,29 @@ import React from 'react'
 import HeaderSecondary from '../components/HeaderSecondary'
 import HeaderTertiary from '../components/HeaderTertiary'
 import ExpertsCards from '../components/ExpertsCards';
-import expert_img_3 from '../Asah_Images/expert_1.png'
-import expert_img_2 from '../Asah_Images/expert_2.png'
-import expert_img_1 from '../Asah_Images/expert_3.png'
+// import expert_img_3 from '../Asah_Images/expert_1.png'
+import expert_img_2 from '../Asha_images/JET.PNG'
+import expert_img_1 from '../Asha_images/LAB.PNG'
 
 const expert_info = [{
   id:'01',
   img:expert_img_1,
-  name:'Asiedu Emmanuel',
-  position:'Manger',
+  name:'Kwarteng Gideon',
+  position:'Chief Operations Officer',
 },
 {
   id:'02',
   img:expert_img_2,
-  name:'Kissiwaa Psalmet',
-  position:'Director',
+  name:'Danquah B. Victor',
+  position:'CEO and Founder',
 },
-{
-  id:'03',
-  img:expert_img_3,
-  name:'Maanu Emmanualla',
-  position:'Secretary',
-}]
+// {
+//   id:'03',
+//   img:expert_img_3,
+//   name:'Maanu Emmanualla',
+//   position:'Secretary',
+// }]
+]
 
 function Experts() {
   return (

@@ -2,12 +2,12 @@ import React from "react";
 import HeaderTertiary from "../components/HeaderTertiary";
 import HeaderSecondary from "../components/HeaderSecondary";
 import ProjectCards from "../components/ProjectCards";
-import img_1 from "../Asah_Images/project_img_1.png";
+import img_1 from "../Asha_images/kids at home.PNG";
 import img_2 from "../Asah_Images/project_img_2.png";
 import img_3 from "../Asah_Images/project_img_3.png";
 import img_4 from "../Asah_Images/project_img_4.png";
-import img_5 from "../Asah_Images/project_img_5.png";
-import img_6 from "../Asah_Images/project_img_6.png";
+import img_5 from "../Asha_images/Capture.JPG";
+import img_6 from "../Asha_images/3.JPG";
 
 function Projects() {
   const img_list = [img_1, img_2, img_3, img_4, img_5, img_6];
